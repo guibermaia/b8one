@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 100%;
+  background-color: #e9ebee;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Colors
+
+// Brand-colors
+$red-normal: #da4b4f;
+$green-normal: #40b25c;
+$green-hover: #1c6c3e;
+
+// Neutral-colors
+$black-normal: #0d0e10;
+$black-dark: #050607;
+$black-light: #15171a;
+
+$white-normal: #f5f7f7;
+$white-dark: #edeff0;
+$white-light: #fafcfc;
+
+// Gray Scale
+$gray-1: #3e3f40;
+$gray-2: #4e4e50;
+$gray-3: #5d5e60;
+$gray-4: #6d6e70;
+$gray-5: #7c7d80;
+$gray-6: #8d8e90;
+$gray-7: #a5a6a8;
+
+// Typography
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0d0e10;
+}
+
+p {
+  font-size: 16px;
+  color: $gray-4;
+}
+
+.container {
+  max-width: 1200px;
+
+  margin: 0 auto;
+  padding: 8px 24px;
+}
